@@ -15,6 +15,7 @@ def alarm(seconds):
         seconds_remaining = remaining_time % 60
         
         print(f"{CLEAR_AND_PRINT}Alarm Rings in {minutes_remaining:02d}:{seconds_remaining:02d}")
+        # alrm.mp3 is also added you can change it for prevent eroor
     playsound("alarm.mp3")
     
 minutes = int(input("Enter Minutes: "))
